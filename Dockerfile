@@ -1,6 +1,6 @@
 FROM node:alpine AS build
 
-ARG VERSION=1.4.2
+ARG VERSION=1.4.5
 
 RUN apk add --no-cache git
 
