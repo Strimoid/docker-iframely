@@ -1,8 +1,8 @@
 FROM node:alpine AS build
 
-ARG VERSION=1.4.5
+ARG VERSION=1.6.0
 
-RUN apk add --no-cache git
+RUN apk add --no-cache build-base git python3
 
 RUN wget -q -O iframely.zip https://github.com/itteco/iframely/archive/v${VERSION}.zip
 RUN unzip iframely.zip
