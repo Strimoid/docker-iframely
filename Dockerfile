@@ -1,6 +1,6 @@
 FROM node:alpine AS build
 
-ARG VERSION=1.6.0
+ARG VERSION=2.2.0
 
 RUN apk add --no-cache build-base git python3
 
